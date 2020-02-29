@@ -1,0 +1,108 @@
+ *{
+	padding-left: 3px;
+        padding-right: 7px;
+	margin: 1px;
+
+}
+
+.evento{ 
+	width: 120px;
+	height: 120px;
+         -webkit-animation: rotate 7s infinite ease-in-out;
+    -moz-animation:rotate 7s infinite ease-in-out;
+    -o-animation:rotate 7s infinite ease-in-out;
+    -ms-animation:rotate 7s infinite ease-in-out;
+}
+
+.encabezado{
+    border: solid 2px #000;
+	width: 99%;
+	height: 144px;
+	display: flex;
+	background-color: brown;
+        padding: 10px;
+}
+.encabezado div img{
+	padding: 10px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.encabezado div h3{
+	padding: 45px;
+	color: white;
+	padding-left: 35px;
+        font-size: 35px;
+        -webkit-animation: translate 5s infinite ease-in-out;
+       
+}
+
+.piepagina{
+    border: solid 2px #000;
+    width: 99%;
+    margin-right: -5px;
+
+    height: 27px;
+    padding: 8px;
+    /*display: flex;*/
+    float: right;
+    /*background-color: brown;*/
+}
+.contenido{
+padding: 10px;
+width: 50%;
+padding-top: 5px;
+float: right;
+}
+
+.menu2{
+	padding-top: 5px;
+	width: 100%;
+        float: right;
+        
+}
+.menu2 a{
+    border: solid 1px #000;
+	padding: 15px;
+	font-size: 18px;
+	text-decoration: none;
+        float: right;
+
+}
+.menu2 a:hover{
+	/*transform: translateX(10px);*/
+	background-color: #009c8c;
+	padding: 15px;
+        color: white;
+	
+}
+.piepagina a{
+    margin-left: 15px;
+    
+}
+.copy{
+    float: right;
+}
+ul.menu2 > a:focus { 
+  background-color: #009c8c;
+  color: white;
+  text-align: center;
+}
+
+@-webkit-keyframes rotate{
+    0%{-webkit-transform: rotateY(-360deg);}
+    100%{-webkit-transform: rotateY(0deg);}
+}
+@-webkit-keyframes translate{
+    0%{transform: translateY(0px);}
+    25%{transform: translateY(15px);}
+    50%{transform: translateY(-5px);}
+    75%{transform: translateY(15px);}
+    100%{transform: translateY(0px);}
+    /*0%{-webkit-transform: rotateX(360deg);}
+    100%{-webkit-transform: rotateX(0deg);}*/
+}
+
+@-moz-keyframes rotate{
+    0%{-moz-trsnsform: rotateY(-360deg);}
+    100%{-moz-transform: rotateY(0deg);} 
+}
